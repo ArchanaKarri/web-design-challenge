@@ -48,6 +48,7 @@
   background-color:rgb(174, 224, 249);
   width: auto;
   border-radius: 5px;
+  padding-top:50px;
   grid-auto-rows: max-content;
   display: inline;
 }
@@ -61,6 +62,7 @@
   margin-right: 5px;
   margin-top: 50px;
   margin-bottom: 10px;
+  padding-top:50px;
   padding: 25px; 
   background-color:rgb(185, 54, 211);
   border-radius: 5px;
@@ -76,6 +78,8 @@
   width:fit-content;
   height: max-content;
   border-radius: 5px;
+  padding-top:100px;
+  position: relative;
   grid-auto-rows: max-content;
   z-index:-1;
 }
@@ -83,6 +87,7 @@
 #box-data {
   vertical-align: top;
   padding: 25px; 
+  padding-top:50px;
   margin-top: 12px;
   background-color:linen;
   height: max-content;
