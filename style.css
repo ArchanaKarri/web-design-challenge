@@ -10,11 +10,17 @@
   margin-left: auto !important;
 }
 
+.dropdown:hover .dropdown-content {
+  display:inline;
+  di
+}
+
 .navbar {
   width: 100%;
   top: 0; /* Position the navbar at the top of the page */
   padding: 8px 10px 0px 10px;
-      position: fixed;
+   position: fixed;
+   z-index: 1;
 
 }
 /* Change background on mouse-over */
@@ -48,6 +54,7 @@
 
 #box-left {
   float: left;
+  image-rendering: auto;
   justify-content: center;
   vertical-align: bottom;
   margin-left:5px;
@@ -55,20 +62,22 @@
   margin-top: 50px;
   margin-bottom: 10px;
   padding: 25px; 
-  background-color:linen;
+  background-color:rgb(185, 54, 211);
   border-radius: 5px;
   min-width: 500px;
   position: relative;
+  
 }
 
 #box-right {
   vertical-align: top;
   padding: 25px; 
-  background-color:linen;
+  background-color:rgb(133, 153, 240);
   width:fit-content;
   height: max-content;
   border-radius: 5px;
   grid-auto-rows: max-content;
+  
 }
 
 #box-data {
